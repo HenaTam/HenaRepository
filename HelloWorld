@@ -1,7 +1,42 @@
+<!DOCTYPE html>
 <html>
+
 <head>
+  <title>Welcome Page</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
 </head>
+
 <body>
-<h1>Hello World<h1>
+  <div class="container">
+    <h1>Welcome!</h1>
+    <p>This is a first-hand project after a long break with coding.</p>
+  </div>
+  <script>
+    // Add your JavaScript here
+  </script>
 </body>
+
 </html>
